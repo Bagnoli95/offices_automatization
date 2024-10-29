@@ -10,7 +10,7 @@ Este proyecto está diseñado para automatizar tareas comunes durante el desarro
 
 ## Prerrequisitos
 
-- [Git](https://git-scm.com/)
+- [Git](https://github.com/)
 - [Java (JDK) para WildFly](https://www.oracle.com/java/technologies/javase-downloads.html) (si utilizas WildFly)
 - [SSH](https://www.openssh.com/) o [sshpass](https://linux.die.net/man/1/sshpass) (opcional para conexión con túneles SSH)
 - [WildFly](https://www.wildfly.org/downloads/) (si necesitas levantar el servidor local)
