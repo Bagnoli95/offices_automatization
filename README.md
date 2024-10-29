@@ -21,3 +21,25 @@ Este proyecto está diseñado para automatizar tareas comunes durante el desarro
    ```bash
    git clone https://github.com/tuusuario/nombre-proyecto.git
    cd nombre-proyecto
+
+
+## Requisitos
+
+Asegúrate de tener instalados los siguientes requisitos:
+- **Python 3 o Bash (dependiendo de tu configuración preferida)
+- **SSH (para los túneles SSH)
+- **Wildfly (si es necesario levantar el servidor localmente)
+- **Opcional: Node.js o cualquier otra herramienta específica que necesite el proyecto.
+
+## Configuración
+
+Este proyecto usa variables de entorno para configuraciones específicas. Aquí te mostramos cómo configurarlas en Windows y Linux.
+Variables de entorno necesarias:
+| Variable |        Descripción       |     Ejemplo     |
+|----------|--------------------------|-----------------|
+| PATH     | ruta al .bat principal   | .../jarvis.bat  |
+
+
+
+
+
