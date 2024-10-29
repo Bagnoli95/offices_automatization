@@ -39,7 +39,38 @@ Variables de entorno necesarias:
 |----------|--------------------------|-----------------|
 | PATH     | ruta al .bat principal   | .../jarvis.bat  |
 
+## Configurar en Windows
+- **Abre el Panel de control y ve a Sistema y seguridad > Sistema > Configuración avanzada del sistema.
+- **Haz clic en Variables de entorno....
+- **En Variables del sistema, selecciona Nueva... para añadir cada variable mencionada en la tabla de arriba con su valor correspondiente.
+- **Guarda los cambios y reinicia el sistema o la terminal para aplicar las variabl
 
 
+## Configurar en Linux
 
+1. Abre tu archivo de configuración de shell (~/.bashrc, ~/.zshrc u otro según tu shell).
+2. Añade las siguientes líneas al final del archivo:
+   ```bash
+   export TEMP_FOLDER="/tmp/proyecto_temp"
+   export WILDFLY_PATH="/opt/wildfly"
+   export SSH_TUNNEL_CMD="ssh -L ..."
+
+3. Guarda el archivo y ejecuta el siguiente comando para cargar las variables:
+   ```bash
+   source ~/.bashrc
+
+
+## Contribuir
+Las contribuciones son bienvenidas. Si deseas colaborar, por favor sigue estos pasos:
+
+Haz un fork del proyecto.
+Crea una nueva rama (git checkout -b feature/nueva-funcion).
+Realiza tus cambios y haz commit (git commit -am 'Añadir nueva función').
+Haz push a la rama (git push origin feature/nueva-funcion).
+Abre un Pull Request.
+
+## Licencia
+Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
+   ```bash
+   Este `README.md` cubre los aspectos clave para instalar, configurar, y ejecutar tu proyecto, lo que hará que tus compañeros puedan integrarse rápidamente. Si tienes otros scripts específicos o instrucciones adicionales, puedes añadir más detalles a la sección de "Uso".
 
