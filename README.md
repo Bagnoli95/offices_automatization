@@ -4,9 +4,9 @@ Este proyecto está diseñado para automatizar tareas comunes durante el desarro
 
 ## Características
 
-- **Limpieza de carpetas temporales**: elimina archivos innecesarios para optimizar espacio y rendimiento.
-- **Inicio de servidor WildFly**: permite levantar un servidor WildFly localmente de forma rápida.
-- **Conexión a través de túneles SSH**: establece túneles SSH de manera automática para conexiones seguras a servicios remotos.
+- Limpieza de carpetas temporales**: elimina archivos innecesarios para optimizar espacio y rendimiento.
+- Inicio de servidor WildFly**: permite levantar un servidor WildFly localmente de forma rápida.
+- Conexión a través de túneles SSH**: establece túneles SSH de manera automática para conexiones seguras a servicios remotos.
 
 ## Prerrequisitos
 
@@ -26,10 +26,10 @@ Este proyecto está diseñado para automatizar tareas comunes durante el desarro
 ## Requisitos
 
 Asegúrate de tener instalados los siguientes requisitos:
-- **Python 3 o Bash (dependiendo de tu configuración preferida)
-- **SSH (para los túneles SSH)
-- **Wildfly (si es necesario levantar el servidor localmente)
-- **Opcional: Node.js o cualquier otra herramienta específica que necesite el proyecto.
+- Python 3 o Bash (dependiendo de tu configuración preferida)
+- SSH (para los túneles SSH)
+- Wildfly (si es necesario levantar el servidor localmente)
+- Opcional: Node.js o cualquier otra herramienta específica que necesite el proyecto.
 
 ## Configuración
 
@@ -40,10 +40,10 @@ Variables de entorno necesarias:
 | PATH     | ruta al .bat principal   | .../jarvis.bat  |
 
 ## Configurar en Windows
-- **Abre el Panel de control y ve a Sistema y seguridad > Sistema > Configuración avanzada del sistema.
-- **Haz clic en Variables de entorno....
-- **En Variables del sistema, selecciona Nueva... para añadir cada variable mencionada en la tabla de arriba con su valor correspondiente.
-- **Guarda los cambios y reinicia el sistema o la terminal para aplicar las variabl
+- Abre el Panel de control y ve a Sistema y seguridad > Sistema > Configuración avanzada del sistema.
+- Haz clic en Variables de entorno....
+- En Variables del sistema, selecciona Nueva... para añadir cada variable mencionada en la tabla de arriba con su valor correspondiente.
+- Guarda los cambios y reinicia el sistema o la terminal para aplicar las variabl
 
 
 ## Configurar en Linux
@@ -63,11 +63,11 @@ Variables de entorno necesarias:
 ## Contribuir
 Las contribuciones son bienvenidas. Si deseas colaborar, por favor sigue estos pasos:
 
-Haz un fork del proyecto.
-Crea una nueva rama (git checkout -b feature/nueva-funcion).
-Realiza tus cambios y haz commit (git commit -am 'Añadir nueva función').
-Haz push a la rama (git push origin feature/nueva-funcion).
-Abre un Pull Request.
+1. Haz un fork del proyecto.
+2. Crea una nueva rama (git checkout -b feature/nueva-funcion).
+3. Realiza tus cambios y haz commit (git commit -am 'Añadir nueva función').
+4. Haz push a la rama (git push origin feature/nueva-funcion).
+5. Abre un Pull Request.
 
 ## Licencia
 Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
